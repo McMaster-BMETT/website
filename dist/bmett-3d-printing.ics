@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BMETT//Events//EN
+BEGIN:VEVENT
+UID:bmett-3d-printing-20261109@mcmasterbmett
+DTSTAMP:20261105T010000Z
+DTSTART:20261109T223000Z
+DTEND:20261109T233000Z
+SUMMARY:BMETT 3D Printing Workshop
+LOCATION:Hatch 204 A/B\, McMaster University
+DESCRIPTION:Beginner-friendly workshop. All faculties welcome. Confirm details at https://www.instagram.com/mcmasterbmett/p/DfQZAjWJvj8/
+URL:https://www.instagram.com/mcmasterbmett/p/DfQZAjWJvj8/
+END:VEVENT
+END:VCALENDAR
