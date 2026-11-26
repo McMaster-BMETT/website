@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BMETT//Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:bmett-signal-vs-noise-20261203@mcmasterbmett
+DTSTAMP:20261126T190000Z
+DTSTART:20261203T233000Z
+DTEND:20261204T013000Z
+SUMMARY:Signal vs. Noise: Applied ML for Sensor Data Workshop
+LOCATION:ABB 136\, McMaster University
+DESCRIPTION:Build and train a machine learning classifier using clean and 
+ noisy sensor signals in Python.
+URL:https://www.instagram.com/mcmasterbmett/
+END:VEVENT
+END:VCALENDAR

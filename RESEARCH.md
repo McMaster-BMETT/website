@@ -51,3 +51,6 @@ First-person project technical source: https://ahmedzafar.ca/blog/bmett (March8 
 - McMaster Engineering Society: original inline white SVG in https://www.macengsociety.ca/ header
 - iBioMed Society: https://www.ibiomedsociety.ca/ibiosocietylogo.png
 - iBioMed program: official @macibiomed profile image, https://www.instagram.com/macibiomed/ (linked from the program’s university website)
+
+## Signal vs. Noise workshop — November 26 update
+User-supplied poster: Signal vs. Noise: Applied ML for Sensor Data. Python classifiers using clean and noisy sensor signals. Time: 6:30–8:30 PM; location: ABB 136. User confirmed Thursday, December 3, 2026, correcting the poster’s Tuesday label. No registration URL was supplied; link uses BMETT’s Instagram contact.
