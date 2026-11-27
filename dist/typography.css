@@ -1,0 +1,99 @@
+/* Readable type sizes across desktop and mobile, retaining the existing design. */
+body{font-size:1.0625rem}
+.announcement{font-size:.75rem;min-height:44px;height:auto;padding:10px 16px;line-height:1.6;flex-wrap:wrap;letter-spacing:.035em}
+.announcement a{margin-left:14px}
+.brand-caption{font-size:.875rem;line-height:1.4;letter-spacing:0;text-transform:none;max-width:150px}
+nav>a,nav>.nav-join{font-size:.9375rem}
+.button,.nav-join,.hero .button,.cream-button,.dialog-actions .button{font-size:.9375rem;min-height:48px}
+.text-link,.hero-actions .text-link,.about-copy .text-link,.light-link,.events-footer .text-link,.team-section .section-heading .text-link,.sponsor-contact .text-link,.join-actions .text-link{font-size:1rem}
+.hero-copy>p{font-size:1.125rem;line-height:1.8;max-width:480px}
+.hero-visual figcaption{font-size:.875rem;line-height:1.7}
+.lead{font-size:1.5rem;line-height:1.55}
+.about-copy{max-width:520px}
+.about-copy>p+p,.pillars p,.project-copy>p,.project-panel p,.support-copy p,.join-section p,.join-section .faq-list p{font-size:1.0625rem;line-height:1.8}
+.project-copy>p,.project-panel p{max-width:440px}
+.project-tabs button{font-size:.9375rem}
+.project-panel{min-height:150px}
+.project-panel h3{font-size:1.125rem}
+.project-result strong{font-size:1.125rem}
+.project-result p,.project-result>a{font-size:.9375rem}
+.filter-group{flex-wrap:wrap}
+.filter-group button{font-size:.9375rem;padding:11px 17px}
+.filter-group button>span{font-size:.8125rem}
+.event-row{grid-template-columns:105px minmax(0,1fr) 260px 42px;gap:24px}
+.event-info h3{font-size:1.5rem;line-height:1.3}
+.event-info p{font-size:1rem;line-height:1.7}
+.event-meta{font-size:.9375rem;line-height:1.8}
+.event-date small{font-size:.875rem;letter-spacing:.07em}
+.events-footer .small,.small,.team-note{font-size:.875rem;line-height:1.7}
+.photo-tile>span{font-size:.9375rem;letter-spacing:.04em}
+.team-card h3{font-size:1.125rem;line-height:1.4}
+.team-card p{font-size:.9375rem;line-height:1.6}
+.support-copy p{max-width:400px}
+.supporters a>span{font-size:.8125rem;line-height:1.7;letter-spacing:.035em}
+.sponsor-contact{font-size:1rem;line-height:1.7}
+.join-status{font-size:.9375rem;line-height:1.7;align-items:flex-start}
+.join-status .status-dot{margin-top:9px}
+.faq-list>h3{font-size:1.125rem;line-height:1.5}
+.faq-list summary{font-size:1rem;line-height:1.6}
+.faq-list details a{font-size:1rem}
+.footer-top>p,.social-links{font-size:.9375rem;line-height:1.8}
+.footer-bottom,.footer-bottom>a,.source-button{font-size:.8125rem;line-height:1.6}
+.dialog-body,.portrait-dialog .dialog-body,.source-list{font-size:1rem;line-height:1.85}
+.dialog-meta{font-size:1rem;line-height:1.8}
+.dialog-kicker{font-size:.8125rem;line-height:1.6;letter-spacing:.06em}
+.dialog-actions .text-link{font-size:1rem}
+@media(max-width:1100px){
+ .event-row{grid-template-columns:85px minmax(0,1fr) 40px;gap:18px}
+ .event-date{grid-row:1/3;align-self:start;padding-top:5px}
+ .event-meta{grid-column:2;grid-row:2;margin-top:-7px}
+ .event-arrow{grid-column:3;grid-row:1/3}
+ .hero-actions{flex-wrap:wrap}
+ .project-grid{gap:38px}
+ .footer-top{flex-wrap:wrap}
+ .social-links{margin-left:0}
+}
+@media(max-width:800px){
+ nav>a{font-size:1.125rem}
+ .about-grid{grid-template-columns:1fr;gap:28px}
+ .about-copy{max-width:650px}
+ .project-grid{grid-template-columns:1fr;gap:35px}
+ .project-copy>p,.project-panel p{max-width:650px}
+ .project-panel{min-height:130px}
+ .project-result{flex-wrap:wrap}
+ .project-result>a{margin-left:0}
+ .section-heading{flex-wrap:wrap}
+ .heading-aside{max-width:none}
+ .footer-top>p{margin-left:0}
+}
+@media(max-width:580px){
+ .announcement{font-size:.75rem;gap:4px 10px;padding:9px 12px}
+ .announcement a{margin-left:0}
+ .announcement>.status-dot{display:none}
+ .hero-copy>p{font-size:1.0625rem;max-width:none}
+ .hero-actions{gap:18px}
+ .hero .button,.cream-button{font-size:.9375rem;gap:20px}
+ .hero-visual figcaption{font-size:.8125rem}
+ .lead{font-size:1.375rem}
+ .pillars p{max-width:none}
+ .event-row{grid-template-columns:55px minmax(0,1fr) 30px;gap:16px 12px}
+ .event-date{font-size:1.875rem}
+ .event-info h3{font-size:1.25rem;line-height:1.4}
+ .event-info p{font-size:1rem}
+ .event-meta{grid-column:2/4;font-size:.9375rem}
+ .event-arrow{grid-row:1;align-self:start;margin-top:7px}
+ .filter-group button{font-size:.875rem;padding:10px 14px}
+ .project-tabs{gap:20px;flex-wrap:wrap}
+ .project-tabs button{font-size:.9375rem}
+ .team-card h3{font-size:1rem}
+ .team-card p{font-size:.875rem}
+ .team-note{font-size:.875rem}
+ .supporters a>span{font-size:.75rem;letter-spacing:.025em}
+ .footer-top>p{font-size:.875rem;margin-left:0}
+ .social-links{font-size:.9375rem;flex-wrap:wrap;gap:16px 24px}
+ .footer-bottom,.footer-bottom>a,.source-button{font-size:.8125rem}
+ .dialog-body,.portrait-dialog .dialog-body,.source-list{font-size:1rem}
+ .dialog-meta{font-size:1rem}
+ .dialog-actions .button{font-size:.9375rem}
+ .dialog-actions .text-link{font-size:.9375rem}
+}
